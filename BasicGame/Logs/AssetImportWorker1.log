@@ -1,0 +1,1036 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'tr' Physical Memory: 7971 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Kaya3/OneDrive/Belgeler/GitHub/Alparslan-Turkes-Universitesi-Unity-Bootcamp/BasicGame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55062
+Successfully changed project path to: C:/Users/Kaya3/OneDrive/Belgeler/GitHub/Alparslan-Turkes-Universitesi-Unity-Bootcamp/BasicGame
+C:/Users/Kaya3/OneDrive/Belgeler/GitHub/Alparslan-Turkes-Universitesi-Unity-Bootcamp/BasicGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21296] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 4188167766 [EditorId] 4188167766 [Version] 1048832 [Id] WindowsEditor(7,AHMETKAYA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21296] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 4188167766 [EditorId] 4188167766 [Version] 1048832 [Id] WindowsEditor(7,AHMETKAYA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 43.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kaya3/OneDrive/Belgeler/GitHub/Alparslan-Turkes-Universitesi-Unity-Bootcamp/BasicGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009883 seconds.
+- Loaded All Assemblies, in  1.212 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 816 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.667 seconds
+Domain Reload Profiling: 2880ms
+	BeginReloadAssembly (463ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (509ms)
+			TypeCache.Refresh (503ms)
+				TypeCache.ScanAssembly (449ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1669ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1064ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.181 seconds
+Refreshing native plugins compatible for Editor in 8.77 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.868 seconds
+Domain Reload Profiling: 4051ms
+	BeginReloadAssembly (467ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (1548ms)
+		LoadAssemblies (1230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (542ms)
+			TypeCache.Refresh (479ms)
+				TypeCache.ScanAssembly (424ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (97ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (1029ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 13.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.7 KB). Loaded Objects now: 3556.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 25.279400 ms (FindLiveObjects: 3.644600 ms CreateObjectMapping: 4.646000 ms MarkObjects: 16.757100 ms  DeleteObjects: 0.227600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21757.204853 seconds.
+  path: Assets/Classic Skybox/sky01.mat
+  artifactKey: Guid(8185c62f5ccafe247bd3d1a04315857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/sky01.mat using Guid(8185c62f5ccafe247bd3d1a04315857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4465764eb55cdb60af7d2a20fe2598') in 0.834458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Classic Skybox/sky07.mat
+  artifactKey: Guid(29d2bb922f79ece4c90867d92e25976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/sky07.mat using Guid(29d2bb922f79ece4c90867d92e25976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebf603c873b7f204a9930035d3e04bc') in 0.142318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Classic Skybox/sky13.mat
+  artifactKey: Guid(43c0ad03dcb6b2a469387975f5050350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/sky13.mat using Guid(43c0ad03dcb6b2a469387975f5050350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5648224ee60903f080ee7609993b6acb') in 0.119549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/Classic Skybox/sky10.mat
+  artifactKey: Guid(096be19f838addd45821efc82508c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/sky10.mat using Guid(096be19f838addd45821efc82508c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4020c90e292a98ad6903bb80e5a48cd') in 0.172284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Classic Skybox/sky09.mat
+  artifactKey: Guid(45393aeb3a23e41448c136a05980c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/sky09.mat using Guid(45393aeb3a23e41448c136a05980c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536f23e52126ad022e4433eb784d724a') in 0.158825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 34.194789 seconds.
+  path: Assets/Classic Skybox/08/sky8_FR.jpg
+  artifactKey: Guid(8a16c944a51e675438cb40bc30e12e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/08/sky8_FR.jpg using Guid(8a16c944a51e675438cb40bc30e12e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913d41e652f64cc890d17888acdd4fde') in 0.103157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Classic Skybox/08/sky8_RT.jpg
+  artifactKey: Guid(7b92ae2a8dda1e544bd08c267371aab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/08/sky8_RT.jpg using Guid(7b92ae2a8dda1e544bd08c267371aab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f53744d0dda18ffa75fd13fb4514185') in 0.055483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.482 seconds
+Refreshing native plugins compatible for Editor in 4.40 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.405 seconds
+Domain Reload Profiling: 4886ms
+	BeginReloadAssembly (456ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (146ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (869ms)
+		LoadAssemblies (983ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (56ms)
+				TypeCache.ScanAssembly (11ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1125ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (127ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (745ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 6.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3605.
+Memory consumption went from 128.0 MB to 128.0 MB.
+Total: 11.106100 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.093500 ms MarkObjects: 10.237700 ms  DeleteObjects: 0.496700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.848 seconds
+Refreshing native plugins compatible for Editor in 10.02 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.859 seconds
+Domain Reload Profiling: 3708ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (541ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1052ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (713ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 8.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3608.
+Memory consumption went from 130.2 MB to 130.2 MB.
+Total: 10.483200 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.087800 ms MarkObjects: 9.837100 ms  DeleteObjects: 0.300300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 615.827635 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_BathroomSink.prefab
+  artifactKey: Guid(9d10197870d1b0d4faefe30b1a81d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_BathroomSink.prefab using Guid(9d10197870d1b0d4faefe30b1a81d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81a1cd9208a5c3ecfb12e980d165307') in 0.877581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_Sofa.prefab
+  artifactKey: Guid(0be9e975c7e9e6443864b5a1acd5a997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_Sofa.prefab using Guid(0be9e975c7e9e6443864b5a1acd5a997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3e6625e99f005e3972eb0b39467a6c') in 0.126708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_Toilet.prefab
+  artifactKey: Guid(7a8fd6e5d2a1848aba8436a31780d21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_Toilet.prefab using Guid(7a8fd6e5d2a1848aba8436a31780d21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7169fc0d01661a1db4b5b989c65f8623') in 0.102259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PlayerFPS.prefab
+  artifactKey: Guid(d512ebcdf02532446b58dc05fc0f10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PlayerFPS.prefab using Guid(d512ebcdf02532446b58dc05fc0f10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd107c1544ad98f5bda921d87d167b118') in 0.012250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_Lightswitch.prefab
+  artifactKey: Guid(6bf9d6b9bf8c7432bac2e53f43134d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_Lightswitch.prefab using Guid(6bf9d6b9bf8c7432bac2e53f43134d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd737ab3f691ad0c2b56f7f9efee6d760') in 0.119583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_KitchenBench.prefab
+  artifactKey: Guid(1b94ae05025ef3f46ae988df48f631f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_KitchenBench.prefab using Guid(1b94ae05025ef3f46ae988df48f631f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4366f235d9f0f35b0c8c006a0cea0cd6') in 0.685622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 191
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_ChestOfDraws.prefab
+  artifactKey: Guid(9c7f97eb257571446a2c55ad625cac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_ChestOfDraws.prefab using Guid(9c7f97eb257571446a2c55ad625cac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372fcbc038d3557ebc684b9136e7c4eb') in 0.134697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_Lamp.prefab
+  artifactKey: Guid(0ed008a5c5ee53c49a715afe02ba2651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_Lamp.prefab using Guid(0ed008a5c5ee53c49a715afe02ba2651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164b0e0517d1840812ca394aaba06bfc') in 0.109196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_Building_Full.prefab
+  artifactKey: Guid(23d25b2e2d4364dd4b92c52ef40cd36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_Building_Full.prefab using Guid(23d25b2e2d4364dd4b92c52ef40cd36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd82d075cb1022380d263e1577a000e') in 1.431170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 983
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_DiningTable.prefab
+  artifactKey: Guid(ff9b1176aafb57843ac4773e5a331cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_DiningTable.prefab using Guid(ff9b1176aafb57843ac4773e5a331cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40a598aa91d04ea65b552ed93ea4e30') in 0.122016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_Fridge.prefab
+  artifactKey: Guid(e8926eaa3588748e4ae5846318659c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_Fridge.prefab using Guid(e8926eaa3588748e4ae5846318659c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7efd149ab0905a01f886b5520ef0f1b') in 0.099060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_Shower.prefab
+  artifactKey: Guid(6a8e574a428559c46bc07b3246fe6028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_Shower.prefab using Guid(6a8e574a428559c46bc07b3246fe6028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e41ee6012ac8e1ca87163f32cef501') in 0.114798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_Bed.prefab
+  artifactKey: Guid(3f6ef443252cefb47b547930837634aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_Bed.prefab using Guid(3f6ef443252cefb47b547930837634aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c47b47131dad70d526edd1731d0dfa6') in 0.080656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 9.689933 seconds.
+  path: Assets/FurnishedCabin/Meshes/BathroomSink.fbx
+  artifactKey: Guid(cdc73258ef2d5ee449fe6d18ccf0122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/BathroomSink.fbx using Guid(cdc73258ef2d5ee449fe6d18ccf0122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06639b1a3a5129728bd243712096bfd0') in 0.447447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FurnishedCabin/Meshes/Pantry.fbx
+  artifactKey: Guid(4bfa61944d51443af9df337c549d747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Pantry.fbx using Guid(4bfa61944d51443af9df337c549d747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b490f28b19eab87cf4280bfaabe42107') in 0.175421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/FurnishedCabin/Meshes/DiningTable.fbx
+  artifactKey: Guid(461c3d4bbf4534691892261103fd5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/DiningTable.fbx using Guid(461c3d4bbf4534691892261103fd5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa24aaff58161e6768bd2924d382ce1') in 0.096055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/FurnishedCabin/Meshes/Toilet.fbx
+  artifactKey: Guid(361d39cd9e9d9495aac07c02c06df127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Toilet.fbx using Guid(361d39cd9e9d9495aac07c02c06df127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06705b99629c3a32a4fe4f7331f63da3') in 0.109039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FurnishedCabin/Meshes/Sofa.fbx
+  artifactKey: Guid(0cf5e90e2357e254fb0b8e86b93898a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Sofa.fbx using Guid(0cf5e90e2357e254fb0b8e86b93898a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4df823662103cfcf56a59ccf0e8244') in 0.097794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FurnishedCabin/Meshes/Building.fbx
+  artifactKey: Guid(98e60240b18f7429b87de03283152eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Building.fbx using Guid(98e60240b18f7429b87de03283152eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf4c63f636cf9887ca77a9b644d01b6') in 0.177461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FurnishedCabin/Meshes/BedroomSofa.fbx
+  artifactKey: Guid(aa28c890d9e8b5e449d701805e420020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/BedroomSofa.fbx using Guid(aa28c890d9e8b5e449d701805e420020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241cb9480abd7d4226d29096400f985a') in 0.111745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/FurnishedCabin/Meshes/Fireplace.fbx
+  artifactKey: Guid(91dd9734515124a55a7601f751109097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Fireplace.fbx using Guid(91dd9734515124a55a7601f751109097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b6d6c6b2ebd6d360aa90af174da607') in 0.127505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FurnishedCabin/Meshes/DiningChair.fbx
+  artifactKey: Guid(cfcf075e496092c489e38a82a64dd637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/DiningChair.fbx using Guid(cfcf075e496092c489e38a82a64dd637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb38462e800f0bfa419bf322c3cec5ad') in 0.112080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/FurnishedCabin/Meshes/Curtain.fbx
+  artifactKey: Guid(2b9feae22f933444ea115e64ae65fe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Curtain.fbx using Guid(2b9feae22f933444ea115e64ae65fe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522b64d598b62b2d811e57cf4624396e') in 0.121482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FurnishedCabin/Meshes/TV.fbx
+  artifactKey: Guid(fc85b0ed6feee4d46a876935af58e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/TV.fbx using Guid(fc85b0ed6feee4d46a876935af58e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54aa962e851505cb136a86d72b2d951f') in 0.134640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FurnishedCabin/Meshes/Stove.fbx
+  artifactKey: Guid(22ec64bba89e94704b5b0eeee5767c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Stove.fbx using Guid(22ec64bba89e94704b5b0eeee5767c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b823326d60670aa168c300b6675db452') in 0.105292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/FurnishedCabin/Meshes/CurtainSmall.fbx
+  artifactKey: Guid(43d79aaf9fe2b4ccaa12db9228294f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/CurtainSmall.fbx using Guid(43d79aaf9fe2b4ccaa12db9228294f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096b9030c443461dad7fe3f5126c53d7') in 0.137067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/FurnishedCabin/Meshes/Lamp.fbx
+  artifactKey: Guid(6d218f58f8d994088bdbda6c916f467f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Lamp.fbx using Guid(6d218f58f8d994088bdbda6c916f467f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be921338cbf894f514ffbbe5a451e1b') in 0.129323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/FurnishedCabin/Meshes/SofaSmall.fbx
+  artifactKey: Guid(5ced1428a23f623448aad5b76e93dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/SofaSmall.fbx using Guid(5ced1428a23f623448aad5b76e93dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499837e7202cfa5b68453f85a4bc308a') in 0.095776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 16.753463 seconds.
+  path: Assets/FurnishedCabin/Scenes/Demo/Lightmap-0_comp_dir.exr
+  artifactKey: Guid(bf71e2cf9ae11894d8a00a31cc1f7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Scenes/Demo/Lightmap-0_comp_dir.exr using Guid(bf71e2cf9ae11894d8a00a31cc1f7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486afbe4b1f62a6108cb12f34fa0bce3') in 0.068784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FurnishedCabin/Scenes/Demo/Lightmap-2_comp_dir.exr
+  artifactKey: Guid(e670b3e489ff2b847b29493ae5da93c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Scenes/Demo/Lightmap-2_comp_dir.exr using Guid(e670b3e489ff2b847b29493ae5da93c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d1de21452d0cc3822c3648960f5ac1') in 0.046847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/FurnishedCabin/Scenes/Demo/ReflectionProbe-0.png
+  artifactKey: Guid(f1bb2155989808240ad3f5575e4aa8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Scenes/Demo/ReflectionProbe-0.png using Guid(f1bb2155989808240ad3f5575e4aa8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368f5b8a94254889f9157b63b7ebeb4f') in 0.080909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.956 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.002 seconds
+Domain Reload Profiling: 2958ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (536ms)
+		LoadAssemblies (653ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2003ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 12.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (33.2 KB). Loaded Objects now: 3612.
+Memory consumption went from 132.3 MB to 132.3 MB.
+Total: 2.501900 ms (FindLiveObjects: 0.273400 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.080900 ms  DeleteObjects: 0.061600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 539.304540 seconds.
+  path: Assets/Classic Skybox/01/sky1_DN.jpg
+  artifactKey: Guid(9a94b0aa4e2406d498f5a2abfbddafc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/01/sky1_DN.jpg using Guid(9a94b0aa4e2406d498f5a2abfbddafc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a935c2e9e164c74ada090313238ec4f') in 0.187479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Classic Skybox/05/sky5_DN.jpg
+  artifactKey: Guid(47c2b1a88ccc18e4d8117e4d1f00220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/05/sky5_DN.jpg using Guid(47c2b1a88ccc18e4d8117e4d1f00220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074198c20a5cc40765cbee23e3da3cc2') in 0.059777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Classic Skybox/04/sky4_LF.jpg
+  artifactKey: Guid(4d56378a5285b2541807e24c084010af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/04/sky4_LF.jpg using Guid(4d56378a5285b2541807e24c084010af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff10879717002d2ba7a54565c030ad52') in 0.040195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Classic Skybox/01/sky1_FR.jpg
+  artifactKey: Guid(54e6f163b8d00d5488cccceef7512344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/01/sky1_FR.jpg using Guid(54e6f163b8d00d5488cccceef7512344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99143b18ad406db6918f5d4493c32f74') in 0.063834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Classic Skybox/02/sky2_BK.jpg
+  artifactKey: Guid(65c6f3e9e6f58ca4b8ff10c95b4ca6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/02/sky2_BK.jpg using Guid(65c6f3e9e6f58ca4b8ff10c95b4ca6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef5061ae1665500a16f7ea38b32219b') in 0.056881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Classic Skybox/03/sky3_UP.jpg
+  artifactKey: Guid(41154d751e1646647aaa5d480d97fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/03/sky3_UP.jpg using Guid(41154d751e1646647aaa5d480d97fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e534c7115935c83152e9befc2fea265b') in 0.050824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Classic Skybox/05/sky5_LF.jpg
+  artifactKey: Guid(432b5b520d50f874e92b6a88bdbcca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/05/sky5_LF.jpg using Guid(432b5b520d50f874e92b6a88bdbcca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b0f29bab13d829e486e648b99f5e05') in 0.067077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Classic Skybox/04/sky4_UP.jpg
+  artifactKey: Guid(7972ac7574f5eaa4b8df0bf18579f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/04/sky4_UP.jpg using Guid(7972ac7574f5eaa4b8df0bf18579f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d2f471d2fc8b56497e09e6dbd3b955') in 0.054657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Classic Skybox/06/sky6_LF.jpg
+  artifactKey: Guid(fe274b3b02aac574c8c9813a54ccdf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/06/sky6_LF.jpg using Guid(fe274b3b02aac574c8c9813a54ccdf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ccaa9e4de9e4b330e2d146df564e5b') in 0.052179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Classic Skybox/06/sky6_FR.jpg
+  artifactKey: Guid(76c215f027cfa8846837fe20880d5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/06/sky6_FR.jpg using Guid(76c215f027cfa8846837fe20880d5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632efda09a260c4fdb04b7db3dedd74d') in 0.045131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Skybox/03/sky3_RT.jpg
+  artifactKey: Guid(edf9151f7cd4a7949ac5c475d28cdabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/03/sky3_RT.jpg using Guid(edf9151f7cd4a7949ac5c475d28cdabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae63fe98c1e991ef26d681bd16f2148') in 0.074853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Classic Skybox/07/sky7_BK.jpg
+  artifactKey: Guid(9c50eea2e27ca264d9eebc362ea1c437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/07/sky7_BK.jpg using Guid(9c50eea2e27ca264d9eebc362ea1c437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d8b5653252e8e48ea4a9038b7545f4') in 0.055897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Classic Skybox/04/sky4_FR.jpg
+  artifactKey: Guid(64c242e2a9ec7654489f07c2bf36dd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/04/sky4_FR.jpg using Guid(64c242e2a9ec7654489f07c2bf36dd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34415e10594b57d5b9b32fbcc5b97fcc') in 0.046513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Classic Skybox/04/sky4_DN.jpg
+  artifactKey: Guid(bdac2ab058314aa4fae76c1764a44e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/04/sky4_DN.jpg using Guid(bdac2ab058314aa4fae76c1764a44e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e9bdb78768cc74952dcb2d91e49c7e') in 0.047848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Classic Skybox/07/sky7_FR.jpg
+  artifactKey: Guid(de5a6099049c5cf40b700217dac6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/07/sky7_FR.jpg using Guid(de5a6099049c5cf40b700217dac6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81554b7726141c8bed9047abde0f5d6b') in 0.052057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Classic Skybox/02/sky2_LF.jpg
+  artifactKey: Guid(0c8332e2b60ec5b4cb2862d8cc27b0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/02/sky2_LF.jpg using Guid(0c8332e2b60ec5b4cb2862d8cc27b0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302a6937f41a56980ed0cb222852b6f4') in 0.074283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Classic Skybox/04/sky4_BK.jpg
+  artifactKey: Guid(9d9ed278844641140a32ff0abc349c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/04/sky4_BK.jpg using Guid(9d9ed278844641140a32ff0abc349c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1029d1dbbcfd9e6e483a6beee443f086') in 0.050407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Classic Skybox/03/sky3_DN.jpg
+  artifactKey: Guid(67cfb64e54871e54fb077b76a7a3fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/03/sky3_DN.jpg using Guid(67cfb64e54871e54fb077b76a7a3fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a4067a64b1c841d62f2be8431b7bb6') in 0.049255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Classic Skybox/07/sky7_LF.jpg
+  artifactKey: Guid(50045828000b016489c63a346c778793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/07/sky7_LF.jpg using Guid(50045828000b016489c63a346c778793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb18dad6d14ed16e87f795758f3165bb') in 0.053688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.382569 seconds.
+  path: Assets/Classic Skybox/07/sky7_UP.jpg
+  artifactKey: Guid(4811c98ef312f914896457af26e85471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/07/sky7_UP.jpg using Guid(4811c98ef312f914896457af26e85471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9472f5c1c3167069a676b94e91640e1c') in 0.052157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.070589 seconds.
+  path: Assets/Classic Skybox/09/sky9_DN.jpg
+  artifactKey: Guid(52aa8947ae548ff42a700373ec29a864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/09/sky9_DN.jpg using Guid(52aa8947ae548ff42a700373ec29a864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53aee823a11baef9b52a612bfc8a2f5') in 0.057226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Classic Skybox/09/sky9_UP.jpg
+  artifactKey: Guid(c06acf3a25078a64586aa72f31733548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/09/sky9_UP.jpg using Guid(c06acf3a25078a64586aa72f31733548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9831c483d5969bb5f005a2ef6e9a09c') in 0.054044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Classic Skybox/10/sky10_BK.jpg
+  artifactKey: Guid(4ca59d6c5428b5843ae50ad392a61146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/10/sky10_BK.jpg using Guid(4ca59d6c5428b5843ae50ad392a61146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bce8a2b9cee5cb440376c4f97bbd6a') in 0.060193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Classic Skybox/09/sky9_LF.jpg
+  artifactKey: Guid(f859f9423433c694aa84e0d599464c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/09/sky9_LF.jpg using Guid(f859f9423433c694aa84e0d599464c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e115d00ad4496727ef141dbe7ecca24') in 0.057113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.134215 seconds.
+  path: Assets/Classic Skybox/10/sky10_LF.jpg
+  artifactKey: Guid(5c6f49c169c6f5242a18b0945fb279cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/10/sky10_LF.jpg using Guid(5c6f49c169c6f5242a18b0945fb279cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fd4ae35d0127212fd478bf0e06d30b') in 0.040325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Classic Skybox/10/sky10_RT.jpg
+  artifactKey: Guid(359242a6e627241448ab6accbf1104f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/10/sky10_RT.jpg using Guid(359242a6e627241448ab6accbf1104f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d301cdb976c5a7ba09e5fefd1ec94e3') in 0.058715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Classic Skybox/11/sky11_DN.jpg
+  artifactKey: Guid(5b9f77c0ac0d42545a0c92da740818b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/11/sky11_DN.jpg using Guid(5b9f77c0ac0d42545a0c92da740818b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0089c179de975e75d7fd92f91beb378') in 0.042513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Classic Skybox/12/sky12_FR.jpg
+  artifactKey: Guid(12b8671c1064ed94399359f640c08046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/12/sky12_FR.jpg using Guid(12b8671c1064ed94399359f640c08046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12df537d002d06bbcf92393b9a7e80c') in 0.054103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Classic Skybox/13/sky13_RT.jpg
+  artifactKey: Guid(ef7cd91a5c47fe145a46ed45ce1c84c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/13/sky13_RT.jpg using Guid(ef7cd91a5c47fe145a46ed45ce1c84c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecdd726e5d4dc0942fc8b3d22c1591e') in 0.045477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Classic Skybox/13/sky13_UP.jpg
+  artifactKey: Guid(678022e3259d83741ba88c5ecbae6d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/13/sky13_UP.jpg using Guid(678022e3259d83741ba88c5ecbae6d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee513f9182a88829c400ff8e1c990ba') in 0.062027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Classic Skybox/14/sky14_BK.jpg
+  artifactKey: Guid(93bffa7cd22778b4ea21df9c78eb866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/14/sky14_BK.jpg using Guid(93bffa7cd22778b4ea21df9c78eb866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015d15fa49715ead51f775d7735cf5e1') in 0.048675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Classic Skybox/12/sky12_RT.jpg
+  artifactKey: Guid(395a7ee4e7ecf314b93f33e22509c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/12/sky12_RT.jpg using Guid(395a7ee4e7ecf314b93f33e22509c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc76b15a84fea21f933d68ccfd32fa80') in 0.052246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Classic Skybox/13/sky13_FR.jpg
+  artifactKey: Guid(ea51c7762a616e24f9d9a3b2746a6cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/13/sky13_FR.jpg using Guid(ea51c7762a616e24f9d9a3b2746a6cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf42fc1dfb4704e8398b6977cc4a4312') in 0.045537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Classic Skybox/13/sky13_LF.jpg
+  artifactKey: Guid(ebdb28d14549ae44d81d58390831f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/13/sky13_LF.jpg using Guid(ebdb28d14549ae44d81d58390831f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534970ed1a4e5ca22584b27c613e2712') in 0.065329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Classic Skybox/11/sky11_RT.jpg
+  artifactKey: Guid(dd1dddf6dd8e7a54d848c6a8968fa589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/11/sky11_RT.jpg using Guid(dd1dddf6dd8e7a54d848c6a8968fa589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca9de89de11a776c2937b3d6c77c372') in 0.053019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Classic Skybox/14/sky14_UP.jpg
+  artifactKey: Guid(2db5abb525593ba469bca5188fbcc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/14/sky14_UP.jpg using Guid(2db5abb525593ba469bca5188fbcc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cacee17aa51c94701d536a94d2160a9') in 0.053817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Classic Skybox/15/sky15_UP.jpg
+  artifactKey: Guid(d82c3ea068ac83d409d3c9422624bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/15/sky15_UP.jpg using Guid(d82c3ea068ac83d409d3c9422624bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f3ca32fd837f760224ed44ebeb2667') in 0.049887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Classic Skybox/15/sky15_BK.jpg
+  artifactKey: Guid(e2df29c7512673948828c1de5d345b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/15/sky15_BK.jpg using Guid(e2df29c7512673948828c1de5d345b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7662c41e54bcde005f9c673f2d21e71a') in 0.056760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Classic Skybox/15/sky15_FR.jpg
+  artifactKey: Guid(234512711fd2ea7468f9220708de708c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/15/sky15_FR.jpg using Guid(234512711fd2ea7468f9220708de708c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917cd4ea5f857462920e294af7aa96a4') in 0.048610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Classic Skybox/11/sky11_FR.jpg
+  artifactKey: Guid(8e9e2add2617d614a887cae5b607f1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/11/sky11_FR.jpg using Guid(8e9e2add2617d614a887cae5b607f1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e4f3bbf25aab896ae24b0f3282785c') in 0.051224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Classic Skybox/15/sky15_DN.jpg
+  artifactKey: Guid(1d3acdbba92446748bdc1ef1da566819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Skybox/15/sky15_DN.jpg using Guid(1d3acdbba92446748bdc1ef1da566819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d128c1065eb0d79b1c524964205f6d') in 0.052757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
