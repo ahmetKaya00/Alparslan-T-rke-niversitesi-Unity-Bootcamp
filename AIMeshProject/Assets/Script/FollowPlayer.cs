@@ -8,7 +8,7 @@ public class FollowPlayer : MonoBehaviour
     
     [SerializeField] private Transform Player;
     private NavMeshAgent agent;
-    public float followingDistance = 4f;
+    public float followingDistance = 10f;
     public float attackRange = 1.5f;
     public GameObject zombi;
 
@@ -26,6 +26,7 @@ public class FollowPlayer : MonoBehaviour
 
     private void Start()
     {
+
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         InvokeRepeating("RandomMovement", 0f, 2f);
@@ -95,9 +96,11 @@ public class FollowPlayer : MonoBehaviour
     {
         animator.SetBool("Walking", false);
         animator.SetBool("Attacking", true);
+        float distanceToTarget = Vector3.Distance(transform.position, Player.position);
 
-        if(!isAttacking && KalanCan.OyuncuCan > 0)
+        if (distanceToTarget < 2f &&!isAttacking && KalanCan.OyuncuCan > 0)
         {
+
             isAttacking = true;
             KalanCan.OyuncuCan -= 1;
             currentCooldown = attackCooldown;
