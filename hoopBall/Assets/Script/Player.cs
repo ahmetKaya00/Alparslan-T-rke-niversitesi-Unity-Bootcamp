@@ -14,10 +14,10 @@ public class Player : MonoBehaviour
     public string CurrentColor;
     public Color ColorCam, ColorSari, ColorPembe, ColorMor;
 
-    public Text score;
-    public float deger;
+    public Text score, PScore, PHScore;
+    public int deger, number;
 
-    public GameObject bir, iki, uc, dort;
+    public GameObject bir, iki, uc, dort, Panel;
 
     private void Start()
     {
@@ -26,6 +26,8 @@ public class Player : MonoBehaviour
 
         rb.bodyType = RigidbodyType2D.Static;
         RandomColor();
+        Panel.SetActive(false);
+        PHScore.text = PlayerPrefs.GetInt("HinghScore", 0).ToString();
     }
 
     private void Update()
@@ -45,6 +47,13 @@ public class Player : MonoBehaviour
             collision.gameObject.transform.position = transform.position + new Vector3(0f, 27f, 0f);
             bir.gameObject.transform.position = transform.position + new Vector3(0f, 24f, 0f);
             deger++;
+            number++;
+            PScore.text = number.ToString();
+            if(number > PlayerPrefs.GetInt("HinghScore", 0))
+            {
+                PlayerPrefs.SetInt("HinghScore", number);
+                PHScore.text = number.ToString();
+            }
             return;
         }
         if(collision.tag == "Two")
@@ -54,6 +63,13 @@ public class Player : MonoBehaviour
             iki.gameObject.transform.position = transform.position + new Vector3(0f, 24f, 0f);
             uc.gameObject.transform.position = transform.position + new Vector3(0f, 24f, 0f);
             deger++;
+            number++;
+            PScore.text = number.ToString();
+            if (number > PlayerPrefs.GetInt("HinghScore", 0))
+            {
+                PlayerPrefs.SetInt("HinghScore", number);
+                PHScore.text = number.ToString();
+            }
             return;
         }if(collision.tag == "Three")
         {
@@ -61,11 +77,19 @@ public class Player : MonoBehaviour
             collision.gameObject.transform.position = transform.position + new Vector3(0f, 27f, 0f);
             dort.gameObject.transform.position = transform.position + new Vector3(0f, 24f, 0f);
             deger++;
+            number++;
+            PScore.text = number.ToString();
+            if (number > PlayerPrefs.GetInt("HinghScore", 0))
+            {
+                PlayerPrefs.SetInt("HinghScore", number);
+                PHScore.text = number.ToString();
+            }
             return;
         }
         if(collision.tag != CurrentColor)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Panel.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 
@@ -92,6 +116,23 @@ public class Player : MonoBehaviour
                 sr.color = ColorMor;
                 break;
         }
+    }
+
+    public void Play()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Panel.SetActive(false);
+        Time.timeScale = 1;
+    }
+    public void Replay()
+    {
+        this.transform.position = transform.position + new Vector3(0f, 1.5f, 0f);
+        Panel.SetActive(false);
+        Time.timeScale = 1;
+    }
+    public void Exit()
+    {
+        Application.Quit();
     }
 
 }
